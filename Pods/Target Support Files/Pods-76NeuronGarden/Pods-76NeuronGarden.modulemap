@@ -1,0 +1,6 @@
+framework module Pods_76NeuronGarden {
+  umbrella header "Pods-76NeuronGarden-umbrella.h"
+
+  export *
+  module * { export * }
+}
