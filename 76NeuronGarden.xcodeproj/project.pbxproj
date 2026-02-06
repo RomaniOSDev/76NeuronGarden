@@ -3,29 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		7403AD7B2F36A761002FAF54 /* NeuronGardenColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD502F36A761002FAF54 /* NeuronGardenColors.swift */; };
+		7403AD7C2F36A761002FAF54 /* NetworkSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD522F36A761002FAF54 /* NetworkSimulator.swift */; };
+		7403AD7D2F36A761002FAF54 /* CampaignProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD542F36A761002FAF54 /* CampaignProgress.swift */; };
+		7403AD7E2F36A761002FAF54 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD552F36A761002FAF54 /* GameMode.swift */; };
+		7403AD7F2F36A761002FAF54 /* LevelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD562F36A761002FAF54 /* LevelConfig.swift */; };
+		7403AD802F36A761002FAF54 /* NeuronModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD572F36A761002FAF54 /* NeuronModels.swift */; };
+		7403AD812F36A761002FAF54 /* CampaignLevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD592F36A761002FAF54 /* CampaignLevelSelectView.swift */; };
+		7403AD822F36A761002FAF54 /* CustomLevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD5B2F36A761002FAF54 /* CustomLevelsView.swift */; };
+		7403AD832F36A761002FAF54 /* DailyTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD5D2F36A761002FAF54 /* DailyTasksView.swift */; };
+		7403AD842F36A761002FAF54 /* ExperimentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD5F2F36A761002FAF54 /* ExperimentsView.swift */; };
+		7403AD852F36A761002FAF54 /* FreeGrowthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD612F36A761002FAF54 /* FreeGrowthView.swift */; };
+		7403AD862F36A761002FAF54 /* GameLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD632F36A761002FAF54 /* GameLevelView.swift */; };
+		7403AD872F36A761002FAF54 /* PetriDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD642F36A761002FAF54 /* PetriDishView.swift */; };
+		7403AD882F36A761002FAF54 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD662F36A761002FAF54 /* CheckLink.swift */; };
+		7403AD892F36A761002FAF54 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD672F36A761002FAF54 /* InternetViewController.swift */; };
+		7403AD8A2F36A761002FAF54 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD682F36A761002FAF54 /* LoaderViewController.swift */; };
+		7403AD8B2F36A761002FAF54 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD6A2F36A761002FAF54 /* OnboardingView.swift */; };
+		7403AD8C2F36A761002FAF54 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD6C2F36A761002FAF54 /* SettingsView.swift */; };
+		7403AD8D2F36A761002FAF54 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD6E2F36A761002FAF54 /* MainMenuView.swift */; };
+		7403AD8E2F36A761002FAF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD702F36A761002FAF54 /* AppDelegate.swift */; };
+		7403AD8F2F36A761002FAF54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD722F36A761002FAF54 /* ContentView.swift */; };
+		7403AD902F36A761002FAF54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD782F36A761002FAF54 /* SceneDelegate.swift */; };
+		7403AD912F36A761002FAF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD792F36A761002FAF54 /* ViewController.swift */; };
+		7403AD922F36A761002FAF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7403AD712F36A761002FAF54 /* Assets.xcassets */; };
+		7403AD942F36A761002FAF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7403AD752F36A761002FAF54 /* LaunchScreen.storyboard */; };
+		7403AD952F36A761002FAF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7403AD772F36A761002FAF54 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D25B55832D1E19BBD6099CE /* Pods-76NeuronGarden.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-76NeuronGarden.release.xcconfig"; path = "Target Support Files/Pods-76NeuronGarden/Pods-76NeuronGarden.release.xcconfig"; sourceTree = "<group>"; };
+		7403AD502F36A761002FAF54 /* NeuronGardenColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronGardenColors.swift; sourceTree = "<group>"; };
+		7403AD522F36A761002FAF54 /* NetworkSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSimulator.swift; sourceTree = "<group>"; };
+		7403AD542F36A761002FAF54 /* CampaignProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignProgress.swift; sourceTree = "<group>"; };
+		7403AD552F36A761002FAF54 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		7403AD562F36A761002FAF54 /* LevelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelConfig.swift; sourceTree = "<group>"; };
+		7403AD572F36A761002FAF54 /* NeuronModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronModels.swift; sourceTree = "<group>"; };
+		7403AD592F36A761002FAF54 /* CampaignLevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignLevelSelectView.swift; sourceTree = "<group>"; };
+		7403AD5B2F36A761002FAF54 /* CustomLevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLevelsView.swift; sourceTree = "<group>"; };
+		7403AD5D2F36A761002FAF54 /* DailyTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTasksView.swift; sourceTree = "<group>"; };
+		7403AD5F2F36A761002FAF54 /* ExperimentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperimentsView.swift; sourceTree = "<group>"; };
+		7403AD612F36A761002FAF54 /* FreeGrowthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeGrowthView.swift; sourceTree = "<group>"; };
+		7403AD632F36A761002FAF54 /* GameLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelView.swift; sourceTree = "<group>"; };
+		7403AD642F36A761002FAF54 /* PetriDishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetriDishView.swift; sourceTree = "<group>"; };
+		7403AD662F36A761002FAF54 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7403AD672F36A761002FAF54 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7403AD682F36A761002FAF54 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7403AD6A2F36A761002FAF54 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7403AD6C2F36A761002FAF54 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7403AD6E2F36A761002FAF54 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		7403AD702F36A761002FAF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7403AD712F36A761002FAF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7403AD722F36A761002FAF54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7403AD732F36A761002FAF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7403AD742F36A761002FAF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7403AD762F36A761002FAF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7403AD782F36A761002FAF54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7403AD792F36A761002FAF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		745879A12F31F89900356770 /* 76NeuronGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 76NeuronGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7569A89DBFCCF9D94213FCF1 /* Pods-76NeuronGarden.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-76NeuronGarden.debug.xcconfig"; path = "Target Support Files/Pods-76NeuronGarden/Pods-76NeuronGarden.debug.xcconfig"; sourceTree = "<group>"; };
 		D425C909BA78A3381E932AF6 /* Pods_76NeuronGarden.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_76NeuronGarden.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		745879DB2F31F8D300356770 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 745879A02F31F89900356770 /* 76NeuronGarden */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		745879D32F31F8D300356770 /* 76NeuronGarden */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (745879DB2F31F8D300356770 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 76NeuronGarden; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7458799E2F31F89900356770 /* Frameworks */ = {
@@ -46,10 +88,148 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7403AD512F36A761002FAF54 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD502F36A761002FAF54 /* NeuronGardenColors.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		7403AD532F36A761002FAF54 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD522F36A761002FAF54 /* NetworkSimulator.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		7403AD582F36A761002FAF54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD542F36A761002FAF54 /* CampaignProgress.swift */,
+				7403AD552F36A761002FAF54 /* GameMode.swift */,
+				7403AD562F36A761002FAF54 /* LevelConfig.swift */,
+				7403AD572F36A761002FAF54 /* NeuronModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7403AD5A2F36A761002FAF54 /* Campaign */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD592F36A761002FAF54 /* CampaignLevelSelectView.swift */,
+			);
+			path = Campaign;
+			sourceTree = "<group>";
+		};
+		7403AD5C2F36A761002FAF54 /* CustomLevels */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD5B2F36A761002FAF54 /* CustomLevelsView.swift */,
+			);
+			path = CustomLevels;
+			sourceTree = "<group>";
+		};
+		7403AD5E2F36A761002FAF54 /* DailyTasks */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD5D2F36A761002FAF54 /* DailyTasksView.swift */,
+			);
+			path = DailyTasks;
+			sourceTree = "<group>";
+		};
+		7403AD602F36A761002FAF54 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD5F2F36A761002FAF54 /* ExperimentsView.swift */,
+			);
+			path = Experiments;
+			sourceTree = "<group>";
+		};
+		7403AD622F36A761002FAF54 /* FreeGrowth */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD612F36A761002FAF54 /* FreeGrowthView.swift */,
+			);
+			path = FreeGrowth;
+			sourceTree = "<group>";
+		};
+		7403AD652F36A761002FAF54 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD632F36A761002FAF54 /* GameLevelView.swift */,
+				7403AD642F36A761002FAF54 /* PetriDishView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7403AD692F36A761002FAF54 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD662F36A761002FAF54 /* CheckLink.swift */,
+				7403AD672F36A761002FAF54 /* InternetViewController.swift */,
+				7403AD682F36A761002FAF54 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7403AD6B2F36A761002FAF54 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD6A2F36A761002FAF54 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7403AD6D2F36A761002FAF54 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD6C2F36A761002FAF54 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7403AD6F2F36A761002FAF54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD5A2F36A761002FAF54 /* Campaign */,
+				7403AD5C2F36A761002FAF54 /* CustomLevels */,
+				7403AD5E2F36A761002FAF54 /* DailyTasks */,
+				7403AD602F36A761002FAF54 /* Experiments */,
+				7403AD622F36A761002FAF54 /* FreeGrowth */,
+				7403AD652F36A761002FAF54 /* Game */,
+				7403AD692F36A761002FAF54 /* LoadingView */,
+				7403AD6B2F36A761002FAF54 /* Onboarding */,
+				7403AD6D2F36A761002FAF54 /* Settings */,
+				7403AD6E2F36A761002FAF54 /* MainMenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7403AD7A2F36A761002FAF54 /* 76NeuronGarden */ = {
+			isa = PBXGroup;
+			children = (
+				7403AD512F36A761002FAF54 /* Design */,
+				7403AD532F36A761002FAF54 /* Engine */,
+				7403AD582F36A761002FAF54 /* Models */,
+				7403AD6F2F36A761002FAF54 /* Views */,
+				7403AD702F36A761002FAF54 /* AppDelegate.swift */,
+				7403AD712F36A761002FAF54 /* Assets.xcassets */,
+				7403AD722F36A761002FAF54 /* ContentView.swift */,
+				7403AD732F36A761002FAF54 /* Info.plist */,
+				7403AD752F36A761002FAF54 /* LaunchScreen.storyboard */,
+				7403AD772F36A761002FAF54 /* Main.storyboard */,
+				7403AD782F36A761002FAF54 /* SceneDelegate.swift */,
+				7403AD792F36A761002FAF54 /* ViewController.swift */,
+			);
+			path = 76NeuronGarden;
+			sourceTree = "<group>";
+		};
 		745879982F31F89900356770 = {
 			isa = PBXGroup;
 			children = (
-				745879D32F31F8D300356770 /* 76NeuronGarden */,
+				7403AD7A2F36A761002FAF54 /* 76NeuronGarden */,
 				745879A22F31F89900356770 /* Products */,
 				BD793F9275554CD36B1F37A1 /* Pods */,
 				05CBC05B30C489D34710FFF8 /* Frameworks */,
@@ -88,9 +268,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				745879D32F31F8D300356770 /* 76NeuronGarden */,
 			);
 			name = 76NeuronGarden;
 			productName = 76NeuronGarden;
@@ -135,6 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7403AD922F36A761002FAF54 /* Assets.xcassets in Resources */,
+				7403AD942F36A761002FAF54 /* LaunchScreen.storyboard in Resources */,
+				7403AD952F36A761002FAF54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +350,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7403AD7B2F36A761002FAF54 /* NeuronGardenColors.swift in Sources */,
+				7403AD7C2F36A761002FAF54 /* NetworkSimulator.swift in Sources */,
+				7403AD7D2F36A761002FAF54 /* CampaignProgress.swift in Sources */,
+				7403AD7E2F36A761002FAF54 /* GameMode.swift in Sources */,
+				7403AD7F2F36A761002FAF54 /* LevelConfig.swift in Sources */,
+				7403AD802F36A761002FAF54 /* NeuronModels.swift in Sources */,
+				7403AD812F36A761002FAF54 /* CampaignLevelSelectView.swift in Sources */,
+				7403AD822F36A761002FAF54 /* CustomLevelsView.swift in Sources */,
+				7403AD832F36A761002FAF54 /* DailyTasksView.swift in Sources */,
+				7403AD842F36A761002FAF54 /* ExperimentsView.swift in Sources */,
+				7403AD852F36A761002FAF54 /* FreeGrowthView.swift in Sources */,
+				7403AD862F36A761002FAF54 /* GameLevelView.swift in Sources */,
+				7403AD872F36A761002FAF54 /* PetriDishView.swift in Sources */,
+				7403AD882F36A761002FAF54 /* CheckLink.swift in Sources */,
+				7403AD892F36A761002FAF54 /* InternetViewController.swift in Sources */,
+				7403AD8A2F36A761002FAF54 /* LoaderViewController.swift in Sources */,
+				7403AD8B2F36A761002FAF54 /* OnboardingView.swift in Sources */,
+				7403AD8C2F36A761002FAF54 /* SettingsView.swift in Sources */,
+				7403AD8D2F36A761002FAF54 /* MainMenuView.swift in Sources */,
+				7403AD8E2F36A761002FAF54 /* AppDelegate.swift in Sources */,
+				7403AD8F2F36A761002FAF54 /* ContentView.swift in Sources */,
+				7403AD902F36A761002FAF54 /* SceneDelegate.swift in Sources */,
+				7403AD912F36A761002FAF54 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7403AD752F36A761002FAF54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7403AD742F36A761002FAF54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7403AD772F36A761002FAF54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7403AD762F36A761002FAF54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		745879B52F31F89B00356770 /* Debug */ = {
@@ -186,6 +408,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 76NeuronGarden/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chupo Neuron Garden";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +420,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-6NeuronGarden";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sav.ch7p2n31r9ng6r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +446,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 76NeuronGarden/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Chupo Neuron Garden";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-6NeuronGarden";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sav.ch7p2n31r9ng6r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

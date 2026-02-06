@@ -11,8 +11,8 @@ import StoreKit
 struct SettingsView: View {
     let onDismiss: () -> Void
     
-    private let privacyURL = "https://example.com/privacy-policy"
-    private let termsURL = "https://example.com/terms-of-service"
+    private let privacyURL = "https://www.termsfeed.com/live/a68a6895-e95e-425b-990f-06b30a167ecd"
+    private let termsURL = "https://www.termsfeed.com/live/496f65cf-83e6-467b-a78a-2774bda7dbe6"
     
     var body: some View {
         ZStack {
