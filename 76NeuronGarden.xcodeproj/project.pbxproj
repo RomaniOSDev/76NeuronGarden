@@ -20,9 +20,6 @@
 		7403AD852F36A761002FAF54 /* FreeGrowthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD612F36A761002FAF54 /* FreeGrowthView.swift */; };
 		7403AD862F36A761002FAF54 /* GameLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD632F36A761002FAF54 /* GameLevelView.swift */; };
 		7403AD872F36A761002FAF54 /* PetriDishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD642F36A761002FAF54 /* PetriDishView.swift */; };
-		7403AD882F36A761002FAF54 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD662F36A761002FAF54 /* CheckLink.swift */; };
-		7403AD892F36A761002FAF54 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD672F36A761002FAF54 /* InternetViewController.swift */; };
-		7403AD8A2F36A761002FAF54 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD682F36A761002FAF54 /* LoaderViewController.swift */; };
 		7403AD8B2F36A761002FAF54 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD6A2F36A761002FAF54 /* OnboardingView.swift */; };
 		7403AD8C2F36A761002FAF54 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD6C2F36A761002FAF54 /* SettingsView.swift */; };
 		7403AD8D2F36A761002FAF54 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7403AD6E2F36A761002FAF54 /* MainMenuView.swift */; };
@@ -50,9 +47,6 @@
 		7403AD612F36A761002FAF54 /* FreeGrowthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeGrowthView.swift; sourceTree = "<group>"; };
 		7403AD632F36A761002FAF54 /* GameLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLevelView.swift; sourceTree = "<group>"; };
 		7403AD642F36A761002FAF54 /* PetriDishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetriDishView.swift; sourceTree = "<group>"; };
-		7403AD662F36A761002FAF54 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		7403AD672F36A761002FAF54 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		7403AD682F36A761002FAF54 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		7403AD6A2F36A761002FAF54 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		7403AD6C2F36A761002FAF54 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7403AD6E2F36A761002FAF54 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
@@ -164,16 +158,6 @@
 			path = Game;
 			sourceTree = "<group>";
 		};
-		7403AD692F36A761002FAF54 /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				7403AD662F36A761002FAF54 /* CheckLink.swift */,
-				7403AD672F36A761002FAF54 /* InternetViewController.swift */,
-				7403AD682F36A761002FAF54 /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
-			sourceTree = "<group>";
-		};
 		7403AD6B2F36A761002FAF54 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,7 +183,6 @@
 				7403AD602F36A761002FAF54 /* Experiments */,
 				7403AD622F36A761002FAF54 /* FreeGrowth */,
 				7403AD652F36A761002FAF54 /* Game */,
-				7403AD692F36A761002FAF54 /* LoadingView */,
 				7403AD6B2F36A761002FAF54 /* Onboarding */,
 				7403AD6D2F36A761002FAF54 /* Settings */,
 				7403AD6E2F36A761002FAF54 /* MainMenuView.swift */,
@@ -363,9 +346,6 @@
 				7403AD852F36A761002FAF54 /* FreeGrowthView.swift in Sources */,
 				7403AD862F36A761002FAF54 /* GameLevelView.swift in Sources */,
 				7403AD872F36A761002FAF54 /* PetriDishView.swift in Sources */,
-				7403AD882F36A761002FAF54 /* CheckLink.swift in Sources */,
-				7403AD892F36A761002FAF54 /* InternetViewController.swift in Sources */,
-				7403AD8A2F36A761002FAF54 /* LoaderViewController.swift in Sources */,
 				7403AD8B2F36A761002FAF54 /* OnboardingView.swift in Sources */,
 				7403AD8C2F36A761002FAF54 /* SettingsView.swift in Sources */,
 				7403AD8D2F36A761002FAF54 /* MainMenuView.swift in Sources */,
@@ -405,7 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 76NeuronGarden/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Chupo Neuron Garden";
@@ -443,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 76NeuronGarden/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Chupo Neuron Garden";
